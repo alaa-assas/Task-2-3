@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    padding: 50px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.rectangle-horizontal{
+    border: 2px solid rgb(142, 61, 162);
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+}
+
+.box{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(185, 136, 197, 0.5);
+    width: 100px;
+    height: 100px;
+}
+
+.main{
+    padding: 20px;
+    border: 2px solid rgb(46, 0, 91);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.row2{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+
+.row3{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 10px;
+}
+
+.rectangle-vertical{
+    border: 2px solid rgb(142, 61, 162);
+    width: 150px;
+    height: 300px;
+    padding: 10px;
+}
+
+.column2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.column2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.column2-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.column2-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+}
